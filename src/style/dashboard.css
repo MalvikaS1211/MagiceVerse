@@ -101,7 +101,7 @@
   color: rgb(255, 255, 255);
 }
 .css-yv5wb4.Mui-selected {
-  background-color: rgb(116, 50, 249);
+  background-color: rgb(33, 82, 175);
   color: rgb(255, 255, 255);
   font-weight: 700;
 }
@@ -1658,7 +1658,12 @@ h2 {
 
 .sidebar ul li:hover,
 .sidebar ul .active {
-  background-image: linear-gradient(to right, #5c258d, #330f7a 51%, #5c258d);
+  background-image: linear-gradient(
+    to right,
+    rgb(33, 82, 175) 0%,
+    rgb(107, 167, 231) 51%,
+    rgb(33, 82, 175) 100%
+  );
   border-radius: 5px;
 }
 
@@ -1993,7 +1998,12 @@ header {
 }
 
 .connect-wallet {
-  background-image: linear-gradient(to right, #5c258d, #330f7a 51%, #5c258d);
+  background-image: linear-gradient(
+    to right,
+    rgb(33, 82, 175) 0%,
+    rgb(107, 167, 231) 51%,
+    rgb(33, 82, 175) 100%
+  );
 }
 
 .connect-wallet {

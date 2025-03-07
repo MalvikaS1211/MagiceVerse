@@ -37,7 +37,7 @@ export default function Dashboard() {
                   class="user-card"
                   style={{
                     background: "transparent",
-                    border: "1px solid rgb(92, 37, 141)",
+                    border: "1px solid rgb(33, 82, 175)",
                   }}
                 >
                   <h6>User ID</h6>
@@ -49,7 +49,7 @@ export default function Dashboard() {
                   class="user-card"
                   style={{
                     backgroundImage:
-                      "linear-gradient(to right, rgb(92, 37, 141) 0%, rgb(51, 15, 122) 51%, rgb(92, 37, 141) 100%)",
+                      "linear-gradient(to right, rgb(33, 82, 175) 0%, rgb(107, 167, 231) 51%, rgb(33, 82, 175) 100%)",
                   }}
                 >
                   <h6>My Wallet Fund</h6>
@@ -61,7 +61,7 @@ export default function Dashboard() {
                   class="user-card"
                   style={{
                     background: "transparent",
-                    border: "1px solid rgb(92, 37, 141)",
+                    border: "1px solid rgb(33, 82, 175)",
                   }}
                 >
                   <h6>Referral Link</h6>
@@ -74,53 +74,53 @@ export default function Dashboard() {
                 <h2>Packages</h2>
                 <div class="package-grid">
                   <div class="package-card">
-                    <span>0.001</span>
+                    <span>0.000</span>
                     <p style={{ color: "color: rgb(212, 55, 55)" }}>
                       FRONTLINE
                     </p>
                   </div>
                   <div class="package-card">
-                    <span>0.00133</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(212, 139, 55)" }}>HOMESTEAD</p>
                   </div>
                   <div class="package-card">
-                    <span>0.00266</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(209, 212, 55)" }}>METROPOLIS</p>
                   </div>
                   <div class="package-card">
-                    <span>0.00533</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(55, 212, 133)" }}>SERENITY</p>
                   </div>
                   <div class="package-card">
-                    <span>0.01066</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(55, 212, 204)" }}>POWERUP</p>
                   </div>
                   <div class="package-card">
-                    <span>0.02133</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(55, 149, 212)" }}>SUPERB</p>
                   </div>
                   <div class="package-card">
-                    <span>0.04266</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(162, 55, 212)" }}>MENTOR</p>
                   </div>
                   <div class="package-card">
-                    <span>0.08533</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(212, 55, 102)" }}>ICON</p>
                   </div>
                   <div class="package-card">
-                    <span>0.17066</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(160, 212, 54)" }}>DUPLEX</p>
                   </div>
                   <div class="package-card">
-                    <span>0.34133</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(147, 99, 43)" }}>ALPHA</p>
                   </div>
                   <div class="package-card">
-                    <span>0.68266</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(113, 114, 19)" }}>HELIX</p>
                   </div>
                   <div class="package-card">
-                    <span>1.36533</span>
+                    <span>0.000</span>
                     <p style={{ color: " rgb(230, 10, 76)" }}>AMBASSADOR</p>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ export default function Dashboard() {
                       <i class="fas fa-medal"></i>
                     </div>
                     <h6 style={{ color: "rgb(108, 151, 207)" }}>DUPLEX</h6>
-                    <p> 0.00101322 ETH</p>
+                    <p> 0.00 ETH</p>
                     <p
                       style={{ fontSize: "14px", color: "rgb(108, 151, 207)" }}
                     >
@@ -167,7 +167,7 @@ export default function Dashboard() {
                       <i class="fas fa-award"></i>
                     </div>
                     <h6 style={{ color: "rgb(108, 207, 166)" }}>ALPHA</h6>
-                    <p> 0.00050661 ETH</p>
+                    <p> 0.00 ETH</p>
                     <p
                       style={{ fontSize: "14px", color: "rgb(108, 207, 166)" }}
                     >
@@ -191,7 +191,7 @@ export default function Dashboard() {
                       <i class="fas fa-trophy"></i>
                     </div>
                     <h6 style={{ color: "rgb(207, 205, 108)" }}>HELIX</h6>
-                    <p> 0.00050661 ETH</p>
+                    <p> 0.00 ETH</p>
                     <p
                       style={{ fontSize: "14px", color: "rgb(207, 205, 108)" }}
                     >
@@ -215,7 +215,7 @@ export default function Dashboard() {
                       <i class="fas fa-crown"></i>
                     </div>
                     <h6 style={{ color: "rgb(207, 161, 108)" }}>Ambassador</h6>
-                    <p> 0.00050661 ETH</p>
+                    <p> 0.00 ETH</p>
                     <p
                       style={{ fontSize: "14px", color: "rgb(207, 161, 108)" }}
                     >

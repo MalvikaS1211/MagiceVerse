@@ -27,7 +27,12 @@
 }
 .sidebar ul li:hover,
 .sidebar ul .active {
-  background-image: linear-gradient(to right, #5c258d, #330f7a 51%, #5c258d);
+  background-image: linear-gradient(
+    to right,
+    rgb(33, 82, 175) 0%,
+    rgb(107, 167, 231) 51%,
+    rgb(33, 82, 175) 100%
+  );
   border-radius: 5px;
 }
 .sidebar ul li {

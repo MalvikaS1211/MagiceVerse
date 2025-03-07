@@ -1,5 +1,5 @@
 import React from "react";
-
+import Logo from "../assets/Logo.png";
 export default function Navbar() {
   return (
     <>
@@ -7,7 +7,7 @@ export default function Navbar() {
       <aside className="sidebar" id="sidebar">
         <div className="logo">
           <img
-            src="/../assets/images/ETHERFORCE LOGO 3 (1).png"
+            src={Logo}
             alt="logo"
             className="logo"
             style={{ width: "160px" }}
