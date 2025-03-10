@@ -2,33 +2,13 @@ import React from "react";
 import Navbar from "./Navbar";
 import Favicon from "../assets/Favicon.png";
 import ConnectWallet from "./ConnectWallet";
+import Header from "./Header";
 export default function Community() {
   return (
     <>
       <Navbar></Navbar>
       <main className="content">
-        <header class="header">
-          <h1>Community</h1>
-          <div class="header-right">
-            <ConnectWallet />
-            <button class="menu-btn" id="menu-btn">
-              <svg
-                stroke="currentColor"
-                fill="currentColor"
-                stroke-width="0"
-                viewBox="0 0 448 512"
-                color="#fff"
-                font-size="20"
-                height="1em"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-                style={{ color: "rgb(255, 255, 255)" }}
-              >
-                <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path>
-              </svg>
-            </button>
-          </div>
-        </header>
+        <Header title="Community" />
         <div
           className="flex flex-col"
           style={{
@@ -105,12 +85,7 @@ export default function Community() {
             <img
               src={Favicon}
               alt="Tree Logo"
-              style={{
-                marginTop: "1vh",
-                width: "90px",
-                height: "70px",
-                cursor: "pointer",
-              }}
+              className="community-branch-icon"
             />
             <div className="logo">0</div>
             <div className="branch-connector">
@@ -125,12 +100,7 @@ export default function Community() {
                   <img
                     src={Favicon}
                     alt="Branch Logo"
-                    style={{
-                      marginTop: "1vh",
-                      width: "90px",
-                      height: "70px",
-                      cursor: "pointer",
-                    }}
+                    className="community-branch-icon"
                   />
                   <p>0</p>
                   <button style={{ cursor: "pointer" }}>Vacant</button>
@@ -142,12 +112,7 @@ export default function Community() {
                         <img
                           src={Favicon}
                           alt="Status Logo"
-                          style={{
-                            marginTop: "1vh",
-                            width: "90px",
-                            height: "70px",
-                            cursor: "pointer",
-                          }}
+                          className="community-branch-icon"
                         />
                         <p>0</p>
                         <button style={{ cursor: "pointer" }}>Vacant</button>
@@ -158,12 +123,7 @@ export default function Community() {
                         <img
                           src={Favicon}
                           alt="Status Logo"
-                          style={{
-                            marginTop: "1vh",
-                            width: "90px",
-                            height: "70px",
-                            cursor: "pointer",
-                          }}
+                          className="community-branch-icon"
                         />
                         <p>0</p>
                         <button style={{ cursor: "pointer" }}>Vacant</button>
