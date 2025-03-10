@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import Navbar from "./Navbar";
+import ConnectWallet from "./ConnectWallet";
 export default function Dashboard() {
   return (
     <>
@@ -11,7 +12,8 @@ export default function Dashboard() {
           <header class="header">
             <h1>Dashboard</h1>
             <div class="header-right">
-              <button class="connect-wallet">Connect Wallet</button>
+              {/* <button class="connect-wallet">Connect Wallet</button> */}
+              <ConnectWallet></ConnectWallet>
               <button class="menu-btn" id="menu-btn">
                 <svg
                   stroke="currentColor"
@@ -455,7 +457,7 @@ export default function Dashboard() {
                   >
                     <ul class="MuiPagination-ul css-51eq8m">
                       <li>
-                        <FaArrowLeft />
+                        <FaArrowLeft color="#6c6c6c" />
                       </li>
                       <li>
                         <button
@@ -469,7 +471,7 @@ export default function Dashboard() {
                         </button>
                       </li>
                       <li>
-                        <FaArrowRight />
+                        <FaArrowRight color="#6c6c6c" />
                       </li>
                     </ul>
                   </nav>

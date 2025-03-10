@@ -67,3 +67,9 @@
   position: absolute;
   bottom: 50px;
 }
+/* Target React Router links */
+a[href] {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}

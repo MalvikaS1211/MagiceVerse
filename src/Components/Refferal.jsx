@@ -1,13 +1,16 @@
 import React from "react";
+import Navbar from "./Navbar";
+import ConnectWallet from "./ConnectWallet";
 
 export default function Refferal() {
   return (
     <>
+      <Navbar></Navbar>
       <main class="content">
         <header class="header">
           <h1>Referral</h1>
           <div class="header-right">
-            <button class="connect-wallet">Connect Wallet</button>
+            <ConnectWallet />
             <button class="menu-btn" id="menu-btn">
               <svg
                 stroke="currentColor"
