@@ -3,13 +3,13 @@ import Navbar from "./Navbar";
 import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import ConnectWallet from "./ConnectWallet";
-import Header from "./Header";
+import HeaderDashboard from "./HeaderDashboard";
 export default function DownLine() {
   return (
     <>
       <Navbar></Navbar>
       <main class="content">
-        <Header title="DownLine"></Header>
+        <HeaderDashboard title="DownLine"></HeaderDashboard>
         <div>
           <div class="flex flex-col" style={{ height: "100vh" }}>
             <div

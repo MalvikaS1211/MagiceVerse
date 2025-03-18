@@ -3,14 +3,14 @@ import { FaArrowLeft } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 import Navbar from "./Navbar";
 import ConnectWallet from "./ConnectWallet";
-import Header from "./Header";
+import HeaderDashboard from "./HeaderDashboard";
 export default function Dashboard() {
   return (
     <>
       <div className="container">
         <Navbar></Navbar>
         <main class="content">
-          <Header title="Dashboard"></Header>
+          <HeaderDashboard title="Dashboard"></HeaderDashboard>
           <div>
             <div class="flex flex-col ">
               <div class="user-grid">

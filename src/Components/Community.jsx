@@ -2,13 +2,13 @@ import React from "react";
 import Navbar from "./Navbar";
 import Favicon from "../assets/Favicon.png";
 import ConnectWallet from "./ConnectWallet";
-import Header from "./Header";
+import HeaderDashboard from "./HeaderDashboard";
 export default function Community() {
   return (
     <>
       <Navbar></Navbar>
       <main className="content">
-        <Header title="Community" />
+        <HeaderDashboard title="Community" />
         <div
           className="flex flex-col"
           style={{

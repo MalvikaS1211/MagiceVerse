@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "./Navbar";
 import ConnectWallet from "./ConnectWallet";
-import Header from "./Header";
+import HeaderDashboard from "./HeaderDashboard";
 
 export default function Refferal() {
   return (
     <>
       <Navbar></Navbar>
       <main class="content">
-        <Header title="Refferal" />
+        <HeaderDashboard title="Refferal" />
         <div>
           <div class="flex flex-col" style={{ height: "100vh" }}>
             <div class="rank-income" style={{ overflowX: "auto" }}>
